@@ -1,4 +1,4 @@
-import banner from "@/assets/banner-primeiros-passos.png";
+import banner from "@/assets/sala-visitas.png";
 import { MessageCircle, ArrowUpRight } from "lucide-react";
 
 export const WelcomeBar = () => (
