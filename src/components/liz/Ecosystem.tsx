@@ -1,12 +1,20 @@
-import { ArrowUpRight, Smartphone, BookOpen, HeartHandshake, Link2, MessageCircle } from "lucide-react";
+import { ArrowUpRight, Smartphone, BookOpen, HeartHandshake, Link2, MessageCircle, Map } from "lucide-react";
 
 const items = [
   {
     title: "App Psicogenealogia",
-    desc: "Mapa do Tesouro digital: ferramenta para mapear sua árvore genealógica.",
+    desc: "Aplicativo oficial para sua jornada de psicogenealogia.",
     icon: Smartphone,
-    url: "https://mapadotesouroliz.lovable.app/",
+    url: "https://psicogenealogializ.lovable.app/",
     accent: "from-primary to-lilac",
+    cta: "Acessar app",
+  },
+  {
+    title: "Mapa do Tesouro",
+    desc: "Ferramenta digital para mapear sua árvore genealógica.",
+    icon: Map,
+    url: "https://mapadotesouroliz.lovable.app/",
+    accent: "from-lilac to-primary",
     cta: "Acessar",
   },
   {
@@ -59,7 +67,7 @@ export const Ecosystem = () => (
         </p>
       </div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5 md:gap-6 max-w-7xl mx-auto">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 max-w-6xl mx-auto">
         {items.map((it, i) => {
           const Icon = it.icon;
           return (
