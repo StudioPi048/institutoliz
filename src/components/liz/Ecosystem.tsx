@@ -18,7 +18,7 @@ const items = [
     cta: "Acessar",
   },
   {
-    title: "Atendimento LKB",
+    title: "Liz Indica!",
     desc: "Rede de profissionais formados para te atender com o método Liz.",
     icon: HeartHandshake,
     url: "https://atendimentolkb.lovable.app",
@@ -26,7 +26,7 @@ const items = [
     cta: "Acessar",
   },
   {
-    title: "Atendimento Letícia Baccin",
+    title: "Atendimento com Letícia Baccin",
     desc: "Letícia Kuchockowolec Baccin · agendamento direto via WhatsApp com Anapaula K Farhat.",
     icon: MessageCircle,
     url: "https://wa.me/5544991318081?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20atendimento%20com%20a%20Let%C3%ADcia%20Baccin.",
@@ -79,7 +79,7 @@ export const Ecosystem = () => (
               </div>
 
               <div className="relative">
-                <h3 className="font-display text-2xl text-deep font-semibold leading-tight">
+                <h3 className="font-display text-deep font-semibold leading-tight text-xl">
                   {it.title}
                 </h3>
                 <p className="mt-3 text-deep/70 text-[15px] leading-relaxed">{it.desc}</p>
