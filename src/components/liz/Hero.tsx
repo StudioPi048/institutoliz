@@ -111,7 +111,7 @@ export const Hero = () => (
                 </div>
                 <div className="text-left">
                   <div className="font-display text-deep font-semibold leading-tight">
-                    Letícia Capriotti
+                    Letícia Kuchockowolec Baccin
                   </div>
                   <div className="text-xs text-deep/70">
                     Fundadora · Instituto Liz
