@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { ArrowUpRight, Sprout, Leaf, TreePine, Trees } from "lucide-react";
 import seedImg from "@/assets/stage-seed.jpg";
-import sproutImg from "@/assets/stage-sprout.jpg";
-import treeImg from "@/assets/stage-tree.jpg";
+import sproutImg from "@/assets/aula.jpg";
+import treeImg from "@/assets/livros.png";
 import forestImg from "@/assets/stage-forest.jpg";
 
 type Stage = {
