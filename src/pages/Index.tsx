@@ -4,6 +4,7 @@ import { WelcomeBar } from "@/components/liz/WelcomeBar";
 import { Journey } from "@/components/liz/Journey";
 import { YoutubeBanner } from "@/components/liz/YoutubeBanner";
 import { Ecosystem } from "@/components/liz/Ecosystem";
+import { ImportantLinks } from "@/components/liz/ImportantLinks";
 import { Footer } from "@/components/liz/Footer";
 import { useReveal } from "@/hooks/use-reveal";
 
@@ -17,6 +18,7 @@ const Index = () => {
       <Journey />
       <YoutubeBanner />
       <Ecosystem />
+      <ImportantLinks />
       <Footer />
     </main>
   );
