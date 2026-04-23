@@ -95,7 +95,7 @@ export const Hero = () => (
             <div className="relative rounded-[2rem] overflow-hidden shadow-elegant border border-white/50 bg-white">
               <img
                 src={leticia}
-                alt="Letícia Capriotti, fundadora do Instituto Liz"
+                alt="Letícia Kuchockowolec Baccin, fundadora do Instituto Liz"
                 width={1200}
                 height={1500}
                 onError={handleImageError}
@@ -111,7 +111,7 @@ export const Hero = () => (
                 </div>
                 <div className="text-left">
                   <div className="font-display text-deep font-semibold leading-tight">
-                    Letícia Capriotti
+                    Letícia Kuchockowolec Baccin
                   </div>
                   <div className="text-xs text-deep/70">
                     Fundadora · Instituto Liz
