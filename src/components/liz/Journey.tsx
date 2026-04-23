@@ -3,7 +3,7 @@ import { ArrowUpRight, Sprout, Leaf, TreePine, Trees } from "lucide-react";
 import seedImg from "@/assets/jornada-semente.png";
 import sproutImg from "@/assets/aula.jpg";
 import treeImg from "@/assets/jornada-arvore.png";
-import forestImg from "@/assets/banner-primeiros-passos.png";
+import forestImg from "@/assets/livros.png";
 
 type Stage = {
   id: number;
