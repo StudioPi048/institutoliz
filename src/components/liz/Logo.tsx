@@ -1,16 +1,21 @@
-export const LizLogo = ({ className = "" }: { className?: string }) => (
+import logoLiz from "@/assets/logo-liz.png";
+
+export const LizLogo = ({ className = "", invert = false }: { className?: string; invert?: boolean }) => (
   <div className={`flex items-center gap-3 ${className}`}>
-    <div className="relative w-11 h-11 rounded-full bg-gradient-amethyst flex items-center justify-center shadow-glow">
-      <svg viewBox="0 0 32 32" className="w-6 h-6 text-primary-foreground" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round">
-        <path d="M16 4v24" />
-        <path d="M16 10c-4 0-7-2-7-5M16 10c4 0 7-2 7-5" />
-        <path d="M16 16c-5 0-9-3-9-7M16 16c5 0 9-3 9-7" />
-        <path d="M16 22c-6 0-11-4-11-9M16 22c6 0 11-4 11-9" />
-      </svg>
-    </div>
+    <img
+      src={logoLiz}
+      alt="Logo Instituto Liz"
+      width={44}
+      height={44}
+      className="w-11 h-11 object-contain drop-shadow-[0_4px_12px_hsl(var(--primary)/0.35)]"
+    />
     <div className="leading-tight">
-      <div className="font-display text-xl font-semibold text-deep">Instituto Liz</div>
-      <div className="text-[11px] uppercase tracking-[0.22em] text-primary/80 font-medium">Psicogenealogia</div>
+      <div className={`font-display text-xl font-semibold ${invert ? "text-primary-foreground" : "text-deep"}`}>
+        Instituto Liz
+      </div>
+      <div className={`text-[11px] uppercase tracking-[0.22em] font-medium ${invert ? "text-primary-foreground/80" : "text-primary/80"}`}>
+        Psicogenealogia
+      </div>
     </div>
   </div>
 );
