@@ -42,7 +42,7 @@ export const YoutubeBanner = () => (
               href="https://www.youtube.com/@PsicogenealogiaLiz"
               target="_blank"
               rel="noopener noreferrer"
-              className="group mt-7 inline-flex items-center gap-3 bg-white text-deep rounded-full px-7 py-4 text-base md:text-lg font-semibold shadow-soft hover:shadow-glow transition-all duration-300 hover:-translate-y-0.5"
+              className="group mt-7 inline-flex items-center gap-3 bg-white text-deep rounded-full px-7 py-4 text-base md:text-lg font-semibold shadow-soft hover:shadow-glow transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
             >
               <Play className="w-5 h-5 fill-[#FF0000] text-[#FF0000]" />
               Assistir no YouTube
