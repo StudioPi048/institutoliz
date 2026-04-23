@@ -18,6 +18,7 @@ export const YoutubeBanner = () => (
                 width={420}
                 height={420}
                 loading="lazy"
+                onError={handleImageError}
                 className="relative w-56 h-56 md:w-72 md:h-72 rounded-full object-cover border-4 border-white/40 shadow-glow"
               />
               <div className="absolute -bottom-2 -right-2 w-16 h-16 rounded-full bg-[#FF0000] flex items-center justify-center shadow-elegant border-4 border-white">
