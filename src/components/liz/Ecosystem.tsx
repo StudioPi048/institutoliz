@@ -68,8 +68,9 @@ export const Ecosystem = () => (
               href={it.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="reveal group relative glass rounded-3xl p-7 flex flex-col gap-5 hover:-translate-y-2 transition-all duration-500 hover:shadow-elegant overflow-hidden"
+              className="reveal group relative glass rounded-3xl p-7 flex flex-col gap-5 hover:-translate-y-2 active:translate-y-0 active:scale-[0.99] transition-all duration-500 hover:shadow-elegant focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background overflow-hidden"
               style={{ transitionDelay: `${i * 60}ms` }}
+              aria-label={`${it.title} — abre em nova aba`}
             >
               <div className={`absolute -top-20 -right-20 w-48 h-48 rounded-full bg-gradient-to-br ${it.accent} opacity-20 blur-3xl group-hover:opacity-40 transition-opacity duration-500`} />
 

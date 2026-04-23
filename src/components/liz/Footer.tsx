@@ -17,6 +17,7 @@ const linkGroups = [
       { label: "App Psicogenealogia", url: "https://mapadotesouroliz.lovable.app/" },
       { label: "Editora Liz", url: "https://editoraliz.lovable.app/#guia" },
       { label: "Atendimento LKB", url: "https://atendimentolkb.lovable.app" },
+      { label: "Atendimento Letícia Baccin", url: "https://wa.me/5544991318081" },
       { label: "Hub de Links", url: "https://hubliz.lovable.app/" },
     ],
   },
@@ -36,13 +37,13 @@ export const Footer = () => (
             “Que cada raiz da sua história vire luz para os que vêm depois.”
           </p>
           <a
-            href="mailto:comercial@institutoliz.com.br"
-            className="mt-8 inline-flex items-center gap-3 glass-dark rounded-full pl-2 pr-5 py-2 text-sm font-medium hover:bg-white/15 transition-colors"
+            href="mailto:gestao@iliz.com.br"
+            className="mt-8 inline-flex items-center gap-3 glass-dark rounded-full pl-2 pr-5 py-2 text-sm font-medium hover:bg-white/15 active:bg-white/20 transition-colors"
           >
             <span className="w-9 h-9 rounded-full bg-white/15 flex items-center justify-center">
               <Mail className="w-4 h-4" />
             </span>
-            comercial@institutoliz.com.br
+            gestao@iliz.com.br
           </a>
         </div>
 
@@ -89,11 +90,11 @@ export const Footer = () => (
               <MessageCircle className="w-5 h-5" />
             </a>
             <a
-              href="https://hubliz.lovable.app/"
+              href="https://www.instagram.com/psicogenealogia.liz"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className="w-11 h-11 rounded-full glass-dark flex items-center justify-center hover:bg-white/20 transition-colors"
+              className="w-11 h-11 rounded-full glass-dark flex items-center justify-center hover:bg-white/20 active:bg-white/25 transition-colors"
             >
               <Instagram className="w-5 h-5" />
             </a>
