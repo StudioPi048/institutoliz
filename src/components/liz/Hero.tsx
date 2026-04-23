@@ -1,4 +1,4 @@
-import leticia from "@/assets/leticia.png";
+import leticia from "@/assets/leticia.webp";
 import { ArrowRight, Play, Sparkles } from "lucide-react";
 import { handleImageError } from "@/lib/image-fallback";
 

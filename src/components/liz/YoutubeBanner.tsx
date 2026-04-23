@@ -1,4 +1,4 @@
-import avatar from "@/assets/leticia-youtube.png";
+import avatar from "@/assets/leticia-youtube.webp";
 import { Play, Youtube } from "lucide-react";
 import { handleImageError } from "@/lib/image-fallback";
 

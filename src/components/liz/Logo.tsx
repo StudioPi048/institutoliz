@@ -1,4 +1,4 @@
-import logoLiz from "@/assets/logo-liz.png";
+import logoLiz from "@/assets/logo-liz.webp";
 import { handleImageError } from "@/lib/image-fallback";
 
 export const LizLogo = ({ className = "", invert = false }: { className?: string; invert?: boolean }) => (
