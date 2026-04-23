@@ -1,5 +1,6 @@
 import banner from "@/assets/sala-visitas.png";
 import { MessageCircle, ArrowUpRight } from "lucide-react";
+import { handleImageError } from "@/lib/image-fallback";
 
 export const WelcomeBar = () => (
   <section className="relative py-14 md:py-20">
@@ -7,10 +8,11 @@ export const WelcomeBar = () => (
       <div className="reveal relative rounded-3xl overflow-hidden shadow-elegant">
         <img
           src={banner}
-          alt="Letícia conduzindo um círculo de boas-vindas com participantes"
+          alt="Sala de Visitas — comunidade Instituto Liz"
           width={1600}
           height={400}
           loading="lazy"
+          onError={handleImageError}
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-deep/90 via-deep/70 to-deep/30 md:to-transparent" />

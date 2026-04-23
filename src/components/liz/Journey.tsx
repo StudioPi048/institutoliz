@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { ArrowUpRight, Sprout, Leaf, TreePine, Trees } from "lucide-react";
+import { handleImageError } from "@/lib/image-fallback";
 import seedImg from "@/assets/jornada-semente.png";
-import sproutImg from "@/assets/aula.jpg";
-import treeImg from "@/assets/jornada-arvore.png";
-import forestImg from "@/assets/livros.png";
+import sproutImg from "@/assets/jornada-arvore.png";
+import treeImg from "@/assets/livros.png";
+import forestImg from "@/assets/aula.jpg";
 
 type Stage = {
   id: number;
@@ -119,16 +120,17 @@ export const Journey = () => {
                 <button
                   key={s.id}
                   onClick={() => setActive(i)}
-                  className="group flex flex-col items-center text-center focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-2xl p-2"
+                  aria-pressed={isActive}
                   aria-label={`Ver etapa ${s.name}`}
+                  className="group flex flex-col items-center text-center focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-2xl p-2 active:scale-95 transition-transform"
                 >
                   <div
-                    className={`relative w-[72px] h-[72px] rounded-full flex items-center justify-center transition-all duration-500 ${
+                    className={`relative w-[72px] h-[72px] md:w-[76px] md:h-[76px] rounded-full flex items-center justify-center transition-all duration-500 ${
                       isActive
                         ? "bg-gradient-amethyst shadow-glow scale-110"
                         : isPassed
                         ? "bg-gradient-amethyst/80 shadow-soft"
-                        : "bg-white border border-primary/20 shadow-soft group-hover:scale-105"
+                        : "bg-white border border-primary/20 shadow-soft group-hover:scale-105 group-hover:border-primary/40"
                     }`}
                   >
                     <StageIcon
@@ -136,9 +138,6 @@ export const Journey = () => {
                         isActive || isPassed ? "text-primary-foreground" : "text-primary"
                       }`}
                     />
-                    {isActive && (
-                      <span className="absolute inset-0 rounded-full animate-pulse-glow" />
-                    )}
                   </div>
                   <div className="mt-4">
                     <div className="text-[11px] uppercase tracking-[0.2em] text-primary/80 font-semibold">
@@ -146,7 +145,7 @@ export const Journey = () => {
                     </div>
                     <div
                       className={`font-display text-lg md:text-xl mt-1 transition-colors ${
-                        isActive ? "text-deep" : "text-deep/70"
+                        isActive ? "text-deep" : "text-deep/70 group-hover:text-deep"
                       }`}
                     >
                       {s.name}
@@ -164,14 +163,15 @@ export const Journey = () => {
             key={active}
             className="glass rounded-3xl overflow-hidden shadow-elegant grid md:grid-cols-2 animate-scale-in"
           >
-            <div className="relative h-64 md:h-auto overflow-hidden">
+            <div className="relative h-64 md:h-auto overflow-hidden bg-gradient-amethyst">
               <img
                 src={stage.image}
                 alt={`Imagem simbólica da etapa ${stage.name}`}
                 width={800}
                 height={800}
                 loading="lazy"
-                className="w-full h-full object-cover"
+                onError={handleImageError}
+                className="w-full h-full object-cover animate-fade-in"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-deep/40 via-transparent to-transparent" />
               <div className="absolute top-5 left-5 glass rounded-full px-4 py-1.5 text-xs uppercase tracking-[0.2em] text-deep font-semibold">
@@ -200,10 +200,10 @@ export const Journey = () => {
                     href={l.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`group inline-flex items-center justify-between gap-3 rounded-full px-6 py-3.5 text-sm md:text-base font-semibold transition-all duration-300 hover:-translate-y-0.5 ${
+                    className={`group inline-flex items-center justify-between gap-3 rounded-full px-6 py-3.5 text-sm md:text-base font-semibold transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background ${
                       idx === 0
                         ? "bg-gradient-amethyst text-primary-foreground shadow-soft hover:shadow-glow"
-                        : "bg-white/70 text-deep border border-primary/20 hover:bg-white"
+                        : "bg-white/70 text-deep border border-primary/20 hover:bg-white hover:border-primary/40"
                     }`}
                   >
                     {l.label}

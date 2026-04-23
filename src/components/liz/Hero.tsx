@@ -1,5 +1,6 @@
 import leticia from "@/assets/leticia.png";
 import { ArrowRight, Play, Sparkles } from "lucide-react";
+import { handleImageError } from "@/lib/image-fallback";
 
 export const Hero = () => (
   <section className="relative pt-28 md:pt-36 pb-16 md:pb-24 overflow-hidden">
@@ -97,6 +98,7 @@ export const Hero = () => (
                 alt="Letícia Capriotti, fundadora do Instituto Liz"
                 width={1200}
                 height={1500}
+                onError={handleImageError}
                 className="w-full h-auto object-cover aspect-[4/5]"
               />
               {/* Subtle bottom fade for legibility */}
