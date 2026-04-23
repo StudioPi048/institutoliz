@@ -1,4 +1,4 @@
-import banner from "@/assets/sala-visitas.png";
+import banner from "@/assets/sala-visitas.webp";
 import { MessageCircle, ArrowUpRight } from "lucide-react";
 import { handleImageError } from "@/lib/image-fallback";
 

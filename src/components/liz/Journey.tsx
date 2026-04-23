@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { ArrowUpRight, Sprout, Leaf, TreePine, Trees } from "lucide-react";
 import { handleImageError } from "@/lib/image-fallback";
-import seedImg from "@/assets/jornada-semente.png";
-import sproutImg from "@/assets/jornada-arvore.png";
-import treeImg from "@/assets/livros.png";
-import forestImg from "@/assets/aula.jpg";
+import seedImg from "@/assets/jornada-semente.webp";
+import sproutImg from "@/assets/jornada-arvore.webp";
+import treeImg from "@/assets/livros.webp";
+import forestImg from "@/assets/aula.webp";
 
 type Stage = {
   id: number;
@@ -159,17 +159,16 @@ export const Journey = () => {
 
         {/* Active card */}
         <div className="reveal max-w-5xl mx-auto">
-          <div
-            key={active}
-            className="glass rounded-3xl overflow-hidden shadow-elegant grid md:grid-cols-2 animate-scale-in"
-          >
+          <div className="glass rounded-3xl overflow-hidden shadow-elegant grid md:grid-cols-2 transition-all duration-500">
             <div className="relative h-64 md:h-auto overflow-hidden bg-gradient-amethyst">
               <img
+                key={`img-${active}`}
                 src={stage.image}
                 alt={`Imagem simbólica da etapa ${stage.name}`}
                 width={800}
                 height={800}
-                loading="lazy"
+                loading="eager"
+                decoding="async"
                 onError={handleImageError}
                 className="w-full h-full object-cover animate-fade-in"
               />
