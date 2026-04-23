@@ -1,5 +1,6 @@
 import avatar from "@/assets/leticia-youtube.png";
 import { Play, Youtube } from "lucide-react";
+import { handleImageError } from "@/lib/image-fallback";
 
 export const YoutubeBanner = () => (
   <section className="relative py-20 md:py-28">
