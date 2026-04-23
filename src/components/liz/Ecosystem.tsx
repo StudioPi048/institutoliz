@@ -1,12 +1,20 @@
-import { ArrowUpRight, Smartphone, BookOpen, HeartHandshake, Link2, MessageCircle } from "lucide-react";
+import { ArrowUpRight, Smartphone, BookOpen, HeartHandshake, Link2, MessageCircle, Map } from "lucide-react";
 
 const items = [
   {
     title: "App Psicogenealogia",
-    desc: "Mapa do Tesouro digital: ferramenta para mapear sua árvore genealógica.",
+    desc: "Aplicativo oficial para sua jornada de psicogenealogia.",
     icon: Smartphone,
-    url: "https://mapadotesouroliz.lovable.app/",
+    url: "https://psicogenealogializ.lovable.app/",
     accent: "from-primary to-lilac",
+    cta: "Acessar app",
+  },
+  {
+    title: "Mapa do Tesouro",
+    desc: "Ferramenta digital para mapear sua árvore genealógica.",
+    icon: Map,
+    url: "https://mapadotesouroliz.lovable.app/",
+    accent: "from-lilac to-primary",
     cta: "Acessar",
   },
   {
