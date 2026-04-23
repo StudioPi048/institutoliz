@@ -1,4 +1,4 @@
-import { ArrowUpRight, Smartphone, BookOpen, HeartHandshake, Link2 } from "lucide-react";
+import { ArrowUpRight, Smartphone, BookOpen, HeartHandshake, Link2, MessageCircle } from "lucide-react";
 
 const items = [
   {
@@ -7,6 +7,7 @@ const items = [
     icon: Smartphone,
     url: "https://mapadotesouroliz.lovable.app/",
     accent: "from-primary to-lilac",
+    cta: "Acessar",
   },
   {
     title: "Editora Liz",
@@ -14,6 +15,7 @@ const items = [
     icon: BookOpen,
     url: "https://editoraliz.lovable.app/#guia",
     accent: "from-deep to-primary",
+    cta: "Acessar",
   },
   {
     title: "Atendimento LKB",
@@ -21,6 +23,15 @@ const items = [
     icon: HeartHandshake,
     url: "https://atendimentolkb.lovable.app",
     accent: "from-lilac to-rose",
+    cta: "Acessar",
+  },
+  {
+    title: "Atendimento Letícia Baccin",
+    desc: "Letícia Kuchockowolec Baccin · agendamento direto via WhatsApp com Anapaula K Farhat.",
+    icon: MessageCircle,
+    url: "https://wa.me/5544991318081?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20atendimento%20com%20a%20Let%C3%ADcia%20Baccin.",
+    accent: "from-primary to-rose",
+    cta: "Falar no WhatsApp",
   },
   {
     title: "Hub de Links",
@@ -28,6 +39,7 @@ const items = [
     icon: Link2,
     url: "https://hubliz.lovable.app/",
     accent: "from-rose to-primary",
+    cta: "Acessar",
   },
 ];
 
@@ -47,7 +59,7 @@ export const Ecosystem = () => (
         </p>
       </div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6 max-w-7xl mx-auto">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5 md:gap-6 max-w-7xl mx-auto">
         {items.map((it, i) => {
           const Icon = it.icon;
           return (
@@ -73,7 +85,7 @@ export const Ecosystem = () => (
               </div>
 
               <div className="relative mt-auto flex items-center justify-between text-primary font-semibold text-sm pt-4 border-t border-primary/15">
-                <span>Acessar</span>
+                <span>{it.cta}</span>
                 <span className="w-9 h-9 rounded-full bg-gradient-amethyst flex items-center justify-center text-primary-foreground transition-transform duration-300 group-hover:rotate-45">
                   <ArrowUpRight className="w-4 h-4" />
                 </span>
