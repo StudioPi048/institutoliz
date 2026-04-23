@@ -34,12 +34,12 @@ const items = [
     cta: "Falar no WhatsApp",
   },
   {
-    title: "Hub de Links",
-    desc: "Todos os caminhos do universo Instituto Liz em um só lugar.",
+    title: "Plataforma Hotmart",
+    desc: "Acesse os cursos e conteúdos exclusivos do Instituto Liz na Hotmart.",
     icon: Link2,
-    url: "https://hubliz.lovable.app/",
+    url: "https://hotmart.com/club/instituto-liz",
     accent: "from-rose to-primary",
-    cta: "Acessar",
+    cta: "Acessar plataforma",
   },
 ];
 
