@@ -2,30 +2,29 @@ import leticia from "@/assets/leticia.png";
 import { ArrowRight, Play, Sparkles } from "lucide-react";
 
 export const Hero = () => (
-  <section className="relative pt-32 md:pt-36 pb-20 md:pb-28 overflow-hidden">
+  <section className="relative pt-28 md:pt-36 pb-16 md:pb-24 overflow-hidden">
     {/* Ambient background */}
     <div className="absolute inset-0 -z-10 bg-gradient-soft" />
-    <div className="absolute -z-10 top-20 -left-24 w-[420px] h-[420px] rounded-full bg-lilac/30 blur-3xl" />
-    <div className="absolute -z-10 bottom-0 -right-24 w-[460px] h-[460px] rounded-full bg-rose/25 blur-3xl" />
+    <div className="absolute -z-10 top-32 -left-32 w-[480px] h-[480px] rounded-full bg-lilac/25 blur-3xl" />
+    <div className="absolute -z-10 bottom-0 -right-32 w-[520px] h-[520px] rounded-full bg-rose/20 blur-3xl" />
 
     <div className="container mx-auto px-6 md:px-8">
-      <div className="grid lg:grid-cols-12 gap-12 lg:gap-10 items-center max-w-7xl mx-auto">
+      <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center max-w-7xl mx-auto">
         {/* LEFT — copy */}
         <div className="lg:col-span-7 text-center lg:text-left">
           <div className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 mb-7 animate-fade-in">
             <Sparkles className="w-4 h-4 text-primary" />
             <span className="text-sm text-deep/80 font-medium tracking-wide">
-              Letícia Capriotti · Psicogenealogia
+              Instituto Liz · Psicogenealogia
             </span>
           </div>
 
           <h1
-            className="font-display text-[2.5rem] sm:text-5xl md:text-6xl lg:text-[4.5rem] leading-[1.04] font-semibold text-deep animate-fade-in"
+            className="font-display text-[2.25rem] sm:text-5xl md:text-6xl lg:text-[4.25rem] leading-[1.05] font-semibold text-deep animate-fade-in"
             style={{ animationDelay: "0.15s", animationFillMode: "both" }}
           >
             Nosso propósito é{" "}
-            <span className="italic text-gradient">ajudar você</span>
-            <br />
+            <span className="italic text-gradient">ajudar você</span>{" "}
             a encontrar o seu.
           </h1>
 
@@ -86,26 +85,26 @@ export const Hero = () => (
         {/* RIGHT — portrait */}
         <div className="lg:col-span-5 relative">
           <div
-            className="relative mx-auto max-w-md lg:max-w-none animate-fade-in"
+            className="relative mx-auto max-w-sm sm:max-w-md lg:max-w-none animate-fade-in"
             style={{ animationDelay: "0.3s", animationFillMode: "both" }}
           >
-            {/* Decorative frame */}
-            <div className="absolute -inset-4 bg-gradient-amethyst rounded-[2.5rem] blur-2xl opacity-30" />
-            <div className="absolute -top-6 -right-6 w-24 h-24 rounded-full bg-gradient-rose blur-2xl opacity-60" />
+            {/* Soft decorative glow */}
+            <div className="absolute -inset-6 bg-gradient-amethyst rounded-[2.5rem] blur-3xl opacity-25" />
 
-            <div className="relative rounded-[2rem] overflow-hidden shadow-elegant border border-white/40 bg-gradient-amethyst">
+            <div className="relative rounded-[2rem] overflow-hidden shadow-elegant border border-white/50 bg-white">
               <img
                 src={leticia}
-                alt="Letícia Capriotti, fundadora do Instituto Liz, sorrindo em seu estúdio"
+                alt="Letícia Capriotti, fundadora do Instituto Liz"
                 width={1200}
                 height={1500}
                 className="w-full h-auto object-cover aspect-[4/5]"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-deep/40 via-transparent to-transparent pointer-events-none" />
+              {/* Subtle bottom fade for legibility */}
+              <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-deep/55 via-deep/15 to-transparent pointer-events-none" />
 
-              {/* Floating badge */}
-              <div className="absolute bottom-5 left-5 right-5 glass rounded-2xl p-4 flex items-center gap-3">
-                <div className="w-11 h-11 rounded-full bg-gradient-amethyst flex items-center justify-center shrink-0">
+              {/* Name plate */}
+              <div className="absolute bottom-5 left-5 right-5 glass rounded-2xl px-4 py-3 flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-gradient-amethyst flex items-center justify-center shrink-0">
                   <Sparkles className="w-5 h-5 text-primary-foreground" />
                 </div>
                 <div className="text-left">
