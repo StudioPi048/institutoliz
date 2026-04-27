@@ -14,7 +14,7 @@ export const YoutubeBanner = () => (
               <div className="absolute -inset-3 rounded-full bg-white/20 blur-xl animate-pulse-glow" />
               <img
                 src={avatar}
-                alt="Letícia Capriotti — Canal Psicogenealogia Liz no YouTube"
+                alt="Letícia Kuchockowolec Baccin — Canal Psicogenealogia Liz no YouTube"
                 width={420}
                 height={420}
                 loading="lazy"
@@ -35,7 +35,7 @@ export const YoutubeBanner = () => (
               Aulas gratuitas de <span className="italic">Psicogenealogia</span>
             </h3>
             <p className="mt-4 text-primary-foreground/85 text-base md:text-lg max-w-xl">
-              Conteúdo semanal com Letícia Capriotti para você compreender a sua
+              Conteúdo semanal com Letícia Kuchockowolec Baccin para você compreender a sua
               história familiar e dar os primeiros passos no autoconhecimento ancestral.
             </p>
             <a
