@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-10T10:16:12-03:00",
+  "title": "Design System: Instituto Liz",
+  "extensions": {
+    "colorMeta": {
+      "amethyst": {
+        "role": "primary",
+        "displayName": "Ametista Institucional",
+        "canonical": "hsl(270 44% 44%)",
+        "tonalRamp": ["hsl(270 44% 15%)", "hsl(270 44% 26%)", "hsl(270 44% 38%)", "hsl(270 44% 50%)", "hsl(270 44% 62%)", "hsl(270 44% 74%)", "hsl(270 44% 86%)", "hsl(270 44% 95%)"]
+      },
+      "deep-violet": {
+        "role": "primary",
+        "displayName": "Violeta de Profundidade",
+        "canonical": "hsl(264 62% 27%)",
+        "tonalRamp": ["hsl(264 62% 15%)", "hsl(264 62% 26%)", "hsl(264 62% 38%)", "hsl(264 62% 50%)", "hsl(264 62% 62%)", "hsl(264 62% 74%)", "hsl(264 62% 86%)", "hsl(264 62% 95%)"]
+      },
+      "lilac": {
+        "role": "secondary",
+        "displayName": "Lilás Vivo",
+        "canonical": "hsl(273 41% 62%)",
+        "tonalRamp": ["hsl(273 41% 15%)", "hsl(273 41% 26%)", "hsl(273 41% 38%)", "hsl(273 41% 50%)", "hsl(273 41% 62%)", "hsl(273 41% 74%)", "hsl(273 41% 86%)", "hsl(273 41% 95%)"]
+      },
+      "soft-rose": {
+        "role": "tertiary",
+        "displayName": "Rosa de Cuidado",
+        "canonical": "hsl(316 35% 63%)",
+        "tonalRamp": ["hsl(316 35% 15%)", "hsl(316 35% 26%)", "hsl(316 35% 38%)", "hsl(316 35% 50%)", "hsl(316 35% 62%)", "hsl(316 35% 74%)", "hsl(316 35% 86%)", "hsl(316 35% 95%)"]
+      },
+      "relational-gold": {
+        "role": "tertiary",
+        "displayName": "Ouro Relacional",
+        "canonical": "hsl(43 52% 54%)",
+        "tonalRamp": ["hsl(43 52% 15%)", "hsl(43 52% 26%)", "hsl(43 52% 38%)", "hsl(43 52% 50%)", "hsl(43 52% 62%)", "hsl(43 52% 74%)", "hsl(43 52% 86%)", "hsl(43 52% 95%)"]
+      },
+      "warm-white": {
+        "role": "neutral",
+        "displayName": "Branco Acolhedor",
+        "canonical": "hsl(285 24% 98%)",
+        "tonalRamp": ["hsl(285 24% 15%)", "hsl(285 24% 26%)", "hsl(285 24% 38%)", "hsl(285 24% 50%)", "hsl(285 24% 62%)", "hsl(285 24% 74%)", "hsl(285 24% 86%)", "hsl(285 24% 95%)"]
+      },
+      "pure-white": {
+        "role": "neutral",
+        "displayName": "Branco Puro",
+        "canonical": "hsl(0 0% 100%)",
+        "tonalRamp": ["hsl(0 0% 15%)", "hsl(0 0% 26%)", "hsl(0 0% 38%)", "hsl(0 0% 50%)", "hsl(0 0% 62%)", "hsl(0 0% 74%)", "hsl(0 0% 86%)", "hsl(0 0% 95%)"]
+      },
+      "ink-violet": {
+        "role": "neutral",
+        "displayName": "Tinta Violeta",
+        "canonical": "hsl(266 52% 16%)",
+        "tonalRamp": ["hsl(266 52% 15%)", "hsl(266 52% 26%)", "hsl(266 52% 38%)", "hsl(266 52% 50%)", "hsl(266 52% 62%)", "hsl(266 52% 74%)", "hsl(266 52% 86%)", "hsl(266 52% 95%)"]
+      },
+      "soft-lilac-surface": {
+        "role": "secondary",
+        "displayName": "Lilás de Respiro",
+        "canonical": "hsl(278 28% 93%)",
+        "tonalRamp": ["hsl(278 28% 15%)", "hsl(278 28% 26%)", "hsl(278 28% 38%)", "hsl(278 28% 50%)", "hsl(278 28% 62%)", "hsl(278 28% 74%)", "hsl(278 28% 86%)", "hsl(278 28% 95%)"]
+      },
+      "muted-lilac-surface": {
+        "role": "secondary",
+        "displayName": "Lilás Silencioso",
+        "canonical": "hsl(282 17% 91%)",
+        "tonalRamp": ["hsl(282 17% 15%)", "hsl(282 17% 26%)", "hsl(282 17% 38%)", "hsl(282 17% 50%)", "hsl(282 17% 62%)", "hsl(282 17% 74%)", "hsl(282 17% 86%)", "hsl(282 17% 95%)"]
+      },
+      "soft-rose-surface": {
+        "role": "tertiary",
+        "displayName": "Rosa de Fundo",
+        "canonical": "hsl(316 30% 91%)",
+        "tonalRamp": ["hsl(316 30% 15%)", "hsl(316 30% 26%)", "hsl(316 30% 38%)", "hsl(316 30% 50%)", "hsl(316 30% 62%)", "hsl(316 30% 74%)", "hsl(316 30% 86%)", "hsl(316 30% 95%)"]
+      },
+      "violet-divider": {
+        "role": "neutral",
+        "displayName": "Divisor Violeta",
+        "canonical": "hsl(270 21% 78%)",
+        "tonalRamp": ["hsl(270 21% 15%)", "hsl(270 21% 26%)", "hsl(270 21% 38%)", "hsl(270 21% 50%)", "hsl(270 21% 62%)", "hsl(270 21% 74%)", "hsl(270 21% 86%)", "hsl(270 21% 95%)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Enunciado principal da página e nenhuma outra função." },
+      "headline": { "displayName": "Headline", "purpose": "Abertura curta dos grandes capítulos editoriais." },
+      "title": { "displayName": "Title", "purpose": "Cursos, caminhos, etapas e itens de diretório." },
+      "body": { "displayName": "Body", "purpose": "Explicação, contexto e orientação para o próximo passo." },
+      "label": { "displayName": "Label", "purpose": "Navegação, sequência, detalhes operacionais e notas curtas." }
+    },
+    "shadows": [
+      { "name": "editorial-wide", "value": "0 24px 50px -32px hsl(var(--deep) / 0.42)", "purpose": "Destaque ambiental eventual para uma peça editorial sobre fundo claro." },
+      { "name": "soft", "value": "0 16px 36px -30px hsl(var(--deep) / 0.35)", "purpose": "Separação mínima de superfícies claras quando a cor e a borda não bastam." },
+      { "name": "amethyst-ambient", "value": "0 18px 42px -30px hsl(var(--primary) / 0.38)", "purpose": "Resposta rara em elementos de marca; nunca brilho decorativo." }
+    ],
+    "motion": [
+      { "name": "relation-trace", "value": "transform 900ms cubic-bezier(0.16, 1, 0.3, 1) 160ms", "purpose": "Traça uma vez a linha relacional dourada; é o único motion expressivo do sistema." },
+      { "name": "relation-link", "value": "transform 220ms ease-out", "purpose": "Revela o sublinhado dourado de links relacionais em hover ou foco." },
+      { "name": "reduced-motion", "value": "0.01ms; relation line static", "purpose": "Mantém todo conteúdo visível e mostra as linhas completas sem animação." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" },
+      { "name": "2xl", "value": "1536px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação principal sobre superfícies claras, com passagem de ametista a violeta profundo.",
+      "html": "<button class=\"ds-btn-primary\">Encontrar meu caminho <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M7 7h10v10M7 17 17 7\"/></svg></button>",
+      "css": ".ds-btn-primary { min-height: 52px; display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; padding: 16px 24px; border: 0; border-radius: 12px; background: hsl(var(--primary, 270 44% 44%)); color: hsl(var(--primary-foreground, 285 24% 98%)); font-family: 'Public Sans', system-ui, sans-serif; font-size: 16px; font-weight: 600; transition: background-color 180ms ease-out; } .ds-btn-primary svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; transition: transform 180ms ease-out; } .ds-btn-primary:hover { background: hsl(var(--deep, 264 62% 27%)); } .ds-btn-primary:hover svg { transform: translate(2px, 2px); } .ds-btn-primary:focus-visible { outline: 2px solid hsl(var(--primary, 270 44% 44%)); outline-offset: 2px; } .ds-btn-primary:active { transform: translateY(1px); }"
+    },
+    {
+      "name": "Dark Button",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Ação escura e firme para superfícies claras e módulos editoriais suaves.",
+      "html": "<button class=\"ds-btn-dark\">Assistir no YouTube</button>",
+      "css": ".ds-btn-dark { min-height: 52px; display: inline-flex; align-items: center; justify-content: center; padding: 16px 24px; border: 0; border-radius: 12px; background: hsl(var(--deep, 264 62% 27%)); color: hsl(var(--primary-foreground, 285 24% 98%)); font-family: 'Public Sans', system-ui, sans-serif; font-size: 16px; font-weight: 600; transition: background-color 180ms ease-out; } .ds-btn-dark:hover { background: hsl(var(--primary, 270 44% 44%)); } .ds-btn-dark:focus-visible { outline: 2px solid hsl(var(--primary, 270 44% 44%)); outline-offset: 2px; } .ds-btn-dark:active { transform: translateY(1px); }"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Ação clara sobre ametista ou violeta, com resposta dourada reservada.",
+      "html": "<button class=\"ds-btn-light\">Entrar na comunidade</button>",
+      "css": ".ds-btn-light { min-height: 52px; display: inline-flex; align-items: center; justify-content: center; padding: 16px 20px; border: 0; border-radius: 12px; background: hsl(var(--background, 285 24% 98%)); color: hsl(var(--deep, 264 62% 27%)); font-family: 'Public Sans', system-ui, sans-serif; font-size: 16px; font-weight: 600; transition: background-color 180ms ease-out; } .ds-btn-light:hover { background: hsl(var(--gold, 43 52% 54%)); } .ds-btn-light:focus-visible { outline: 2px solid hsl(var(--background, 285 24% 98%)); outline-offset: 2px; } .ds-btn-light:active { transform: translateY(1px); }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Ação secundária transparente, adequada para pares de CTA sem competir com a principal.",
+      "html": "<button class=\"ds-btn-outline\">Ver aulas abertas</button>",
+      "css": ".ds-btn-outline { min-height: 52px; display: inline-flex; align-items: center; justify-content: center; padding: 16px 24px; border: 1px solid hsl(var(--deep, 264 62% 27%) / 0.25); border-radius: 12px; background: transparent; color: hsl(var(--deep, 264 62% 27%)); font-family: 'Public Sans', system-ui, sans-serif; font-size: 16px; font-weight: 600; transition: border-color 180ms ease-out, color 180ms ease-out; } .ds-btn-outline:hover { border-color: hsl(var(--primary, 270 44% 44%)); color: hsl(var(--primary, 270 44% 44%)); } .ds-btn-outline:focus-visible { outline: 2px solid hsl(var(--primary, 270 44% 44%)); outline-offset: 2px; } .ds-btn-outline:active { transform: translateY(1px); }"
+    },
+    {
+      "name": "Relational Navigation",
+      "kind": "nav",
+      "description": "Navegação textual com linha dourada que conecta a marca aos destinos principais.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegação principal\"><span class=\"ds-nav-brand\">Instituto Liz</span><span class=\"ds-nav-axis\" aria-hidden=\"true\"></span><a class=\"ds-nav-link\" href=\"#bio\">Letícia &amp; caminhos</a><a class=\"ds-nav-link\" href=\"#jornada\">Jornada</a></nav>",
+      "css": ".ds-nav { min-height: 76px; display: flex; align-items: center; gap: 28px; padding: 0 32px; background: hsl(var(--background, 285 24% 98%)); border-bottom: 1px solid hsl(var(--deep, 264 62% 27%) / 0.1); font-family: 'Public Sans', system-ui, sans-serif; } .ds-nav-brand { color: hsl(var(--deep, 264 62% 27%)); font-family: Anybody, system-ui, sans-serif; font-size: 20px; font-weight: 700; letter-spacing: -0.03em; } .ds-nav-axis { height: 1px; flex: 1; background: hsl(var(--gold, 43 52% 54%)); } .ds-nav-link { position: relative; padding: 8px 0; color: hsl(var(--deep, 264 62% 27%) / 0.75); text-decoration: none; font-size: 14px; font-weight: 600; } .ds-nav-link::after { position: absolute; right: 0; bottom: 2px; left: 0; height: 1px; content: ''; background: hsl(var(--gold, 43 52% 54%)); transform: scaleX(0); transform-origin: left; transition: transform 220ms ease-out; } .ds-nav-link:hover { color: hsl(var(--deep, 264 62% 27%)); } .ds-nav-link:hover::after, .ds-nav-link:focus-visible::after { transform: scaleX(1); } .ds-nav-link:focus-visible { outline: 2px solid hsl(var(--primary, 270 44% 44%)); outline-offset: 2px; }"
+    },
+    {
+      "name": "Journey Step",
+      "kind": "custom",
+      "description": "Botão semântico de etapa com número dourado e estado selecionado em violeta profundo.",
+      "html": "<button class=\"ds-journey-step\" aria-pressed=\"true\"><span class=\"ds-journey-number\">01</span><span class=\"ds-journey-name\">A Semente</span></button>",
+      "css": ".ds-journey-step { min-height: 96px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; width: 180px; padding: 16px 12px; border: 0; border-right: 1px solid hsl(var(--deep, 264 62% 27%) / 0.2); border-bottom: 1px solid hsl(var(--deep, 264 62% 27%) / 0.2); background: hsl(var(--secondary, 278 28% 93%)); color: hsl(var(--deep, 264 62% 27%)); text-align: left; transition: background-color 180ms ease-out, color 180ms ease-out; } .ds-journey-number { color: hsl(var(--primary, 270 44% 44%)); font-family: 'Public Sans', system-ui, sans-serif; font-size: 12px; font-weight: 600; } .ds-journey-name { margin-top: 8px; font-family: Anybody, system-ui, sans-serif; font-size: 18px; font-weight: 700; letter-spacing: -0.03em; } .ds-journey-step[aria-pressed='true'] { background: hsl(var(--deep, 264 62% 27%)); color: hsl(var(--primary-foreground, 285 24% 98%)); } .ds-journey-step[aria-pressed='true'] .ds-journey-number { color: hsl(var(--gold, 43 52% 54%)); } .ds-journey-step:hover:not([aria-pressed='true']) { background: hsl(var(--background, 285 24% 98%)); } .ds-journey-step:focus-visible { outline: 2px solid hsl(var(--primary, 270 44% 44%)); outline-offset: -2px; }"
+    },
+    {
+      "name": "Editorial Directory Row",
+      "kind": "custom",
+      "description": "Linha sequencial para ecossistema, cursos e caminhos, substituindo grades genéricas de cards.",
+      "html": "<a class=\"ds-directory-row\" href=\"#\"><span class=\"ds-directory-number\">01</span><strong class=\"ds-directory-title\">App Psicogenealogia</strong><span class=\"ds-directory-copy\">Ferramenta oficial para acompanhar sua jornada.</span><span class=\"ds-directory-action\">Acessar app →</span></a>",
+      "css": ".ds-directory-row { display: grid; grid-template-columns: 48px minmax(150px, 0.85fr) minmax(220px, 1.15fr) auto; align-items: center; gap: 16px; padding: 24px 12px; border-top: 1px solid hsl(var(--primary-foreground, 285 24% 98%) / 0.32); border-bottom: 1px solid hsl(var(--primary-foreground, 285 24% 98%) / 0.32); background: hsl(var(--primary, 270 44% 44%)); color: hsl(var(--primary-foreground, 285 24% 98%)); text-decoration: none; font-family: 'Public Sans', system-ui, sans-serif; transition: background-color 180ms ease-out; } .ds-directory-number { color: hsl(var(--gold, 43 52% 54%)); font-family: Anybody, system-ui, sans-serif; font-size: 14px; font-weight: 700; } .ds-directory-title { font-family: Anybody, system-ui, sans-serif; font-size: 22px; font-weight: 700; letter-spacing: -0.03em; } .ds-directory-copy { max-width: 42ch; color: hsl(var(--primary-foreground, 285 24% 98%) / 0.82); font-size: 14px; line-height: 1.625; } .ds-directory-action { color: hsl(var(--gold, 43 52% 54%)); font-size: 14px; font-weight: 600; } .ds-directory-row:hover { background: color-mix(in srgb, hsl(var(--primary, 270 44% 44%)) 84%, hsl(var(--deep, 264 62% 27%)) 16%); } .ds-directory-row:focus-visible { outline: 2px solid hsl(var(--primary-foreground, 285 24% 98%)); outline-offset: -2px; }"
+    },
+    {
+      "name": "Relational Link",
+      "kind": "custom",
+      "description": "Ação textual que revela a linha dourada e mantém o gesto de conexão em escala pequena.",
+      "html": "<a class=\"ds-relation-link\" href=\"#\">Conhecer a formação</a>",
+      "css": ".ds-relation-link { position: relative; display: inline-flex; min-height: 44px; align-items: center; color: hsl(var(--primary, 270 44% 44%)); text-decoration: none; font-family: 'Public Sans', system-ui, sans-serif; font-size: 16px; font-weight: 600; transition: color 180ms ease-out; } .ds-relation-link::after { position: absolute; right: -5px; bottom: 2px; left: 0; height: 1px; content: ''; background: hsl(var(--gold, 43 52% 54%)); transform: scaleX(0); transform-origin: left; transition: transform 220ms ease-out; } .ds-relation-link:hover { color: hsl(var(--deep, 264 62% 27%)); } .ds-relation-link:hover::after, .ds-relation-link:focus-visible::after { transform: scaleX(1); } .ds-relation-link:focus-visible { outline: 2px solid hsl(var(--primary, 270 44% 44%)); outline-offset: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Campo de Relações",
+    "overview": "O sistema visual apresenta o Instituto Liz como um campo vivo de histórias, vínculos e escolhas. A página tem presença editorial e humana: grandes títulos conduzem a leitura, fotografias reais de Letícia sustentam a autoridade, e superfícies chapadas de ametista, violeta, lilás e rosa suave organizam os diferentes ritmos sem transformar o conteúdo em um catálogo impessoal.\n\nA experiência é serena, mas não etérea. O branco quente oferece respiro, o dourado cria continuidade entre partes e o contraste violeta mantém a leitura adulta e precisa. A geometria nasce do símbolo do Instituto e de relações entre linhas, colunas e blocos assimétricos; ela nunca depende de ornamento genérico, efeitos de vidro ou profundidade cenográfica.\n\nO conteúdo permanece visível e legível em todos os estados. A única animação autoral é o traçado da linha relacional dourada; demais mudanças de estado são transições discretas de cor ou pequenos deslocamentos de ícones.\n\nEsta expressão foi consolidada a partir do seed FORM 625b6959; novas superfícies devem preservar seu campo editorial e relacional sem copiar mecanicamente a composição da home.",
+    "keyCharacteristics": [
+      "Editorial, humano e sereno, com hierarquia tipográfica firme.",
+      "Fotografia real como evidência de autoria e presença.",
+      "Blocos cromáticos chapados e módulos assimétricos.",
+      "Dourado usado como fio relacional, não como decoração abundante.",
+      "Conteúdo sempre visível; movimento reduzido preserva integralmente a compreensão."
+    ],
+    "rules": [
+      { "name": "The Continuous Field Rule", "body": "A composição deve parecer uma sequência de relações, não uma coleção de peças autônomas ou cartões intercambiáveis.", "section": "overview" },
+      { "name": "The No Navy Rule", "body": "Azul-marinho não pertence à identidade do Instituto Liz e não deve ser introduzido como substituto de violeta profundo, tinta ou neutral escuro.", "section": "colors" },
+      { "name": "The Flat Color Rule", "body": "Cores aparecem em campos chapados. Não usar gradientes decorativos, halos, mesh gradients ou misturas atmosféricas.", "section": "colors" },
+      { "name": "The Golden Thread Rule", "body": "O dourado é raro e relacional: conecta, numera ou sinaliza. Ele não preenche grandes superfícies nem disputa protagonismo com a ametista.", "section": "colors" },
+      { "name": "The Human Authority Rule", "body": "Títulos são grandes e firmes, mas o corpo nunca é reduzido para parecer sofisticado; clareza e leitura adulta têm prioridade.", "section": "typography" },
+      { "name": "The Two-Voice Rule", "body": "Anybody fala pela visão e pelos nomes; Public Sans explica, orienta e permite agir. Não introduzir uma terceira família tipográfica.", "section": "typography" },
+      { "name": "The Sequential Directory Rule", "body": "Conjuntos extensos de caminhos ou ofertas usam linhas editoriais em sequência, separadas por traços finos; nunca uma grade genérica de cards.", "section": "layout" },
+      { "name": "The Narrative Evidence Rule", "body": "Números e credenciais entram na biografia ou nos detalhes do caminho correspondente. Não criar faixas de métricas ou contadores artificiais.", "section": "layout" },
+      { "name": "The Tonal Depth Rule", "body": "Primeiro separe planos com cor, borda e composição; sombra é último recurso e nunca cria glassmorphism.", "section": "elevation" },
+      { "name": "The Rectangular Field Rule", "body": "Arredondamento pertence a controles e pequenos focos; não arredondar todas as imagens, seções e contêineres.", "section": "shapes" },
+      { "name": "The Only Motion Rule", "body": "A linha relacional é o único momento de motion expressivo. Não adicionar entradas em cascata, parallax, flutuação, shimmer, pulsos ou revelações que ocultem conteúdo.", "section": "components" }
+    ],
+    "dos": [
+      "Do usar fotografias reais de Letícia e dos materiais do Instituto como evidência humana.",
+      "Do estruturar a leitura como um campo contínuo de capítulos, relações e próximos passos.",
+      "Do manter títulos curtos em Anybody e explicações claras em Public Sans.",
+      "Do usar ametista, violeta, lilás, rosa suave, branco e dourado em campos chapados com contraste legível.",
+      "Do preservar conteúdo visível e uma experiência equivalente quando a pessoa prefere movimento reduzido.",
+      "Do incorporar credenciais, duração e números confirmados diretamente na narrativa à qual pertencem."
+    ],
+    "donts": [
+      "Don't usar azul-marinho, preto azulado ou uma paleta corporativa fria como neutral escuro.",
+      "Don't usar gradientes decorativos, glassmorphism, brilho difuso ou superfícies translúcidas cenográficas.",
+      "Don't converter caminhos e ofertas em grades genéricas de cards.",
+      "Don't criar eyebrows decorativos, faixas de métricas, contadores ou números promocionais sem função narrativa.",
+      "Don't animar conteúdo, imagens ou seções; apenas a linha relacional pode ter motion expressivo.",
+      "Don't transformar todos os elementos em pílulas, caixas arredondadas ou componentes de template."
+    ]
+  }
+}

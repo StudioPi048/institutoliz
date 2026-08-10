@@ -5,17 +5,17 @@ export const LizLogo = ({ className = "", invert = false }: { className?: string
   <div className={`flex items-center gap-3 ${className}`}>
     <img
       src={logoLiz}
-      alt="Logo Instituto Liz"
+      alt="Símbolo do Instituto Liz"
       width={44}
       height={44}
       onError={handleImageError}
-      className="w-11 h-11 object-contain drop-shadow-[0_4px_12px_hsl(var(--primary)/0.35)]"
+      className="h-10 w-10 object-contain md:h-11 md:w-11"
     />
-    <div className="leading-tight">
-      <div className={`font-display text-xl font-semibold ${invert ? "text-primary-foreground" : "text-deep"}`}>
+    <div className="leading-none">
+      <div className={`font-display text-lg font-bold tracking-[-0.03em] md:text-xl ${invert ? "text-primary-foreground" : "text-deep"}`}>
         Instituto Liz
       </div>
-      <div className={`text-[11px] uppercase tracking-[0.22em] font-medium ${invert ? "text-primary-foreground/80" : "text-primary/80"}`}>
+      <div className={`mt-1.5 text-[9px] font-semibold uppercase tracking-[0.24em] ${invert ? "text-primary-foreground/68" : "text-primary/70"}`}>
         Psicogenealogia
       </div>
     </div>

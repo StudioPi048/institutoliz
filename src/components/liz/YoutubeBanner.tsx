@@ -3,52 +3,36 @@ import { Play, Youtube } from "lucide-react";
 import { handleImageError } from "@/lib/image-fallback";
 
 export const YoutubeBanner = () => (
-  <section className="relative py-20 md:py-28">
-    <div className="container mx-auto px-6 md:px-8 max-w-6xl">
-      <div className="reveal relative rounded-[2rem] overflow-hidden shadow-elegant bg-gradient-amethyst">
-        <div className="absolute inset-0 opacity-30 bg-[radial-gradient(circle_at_70%_30%,hsl(var(--lilac))_0%,transparent_55%),radial-gradient(circle_at_20%_80%,hsl(var(--rose))_0%,transparent_55%)]" />
-
-        <div className="relative grid md:grid-cols-5 gap-8 items-center p-8 md:p-12 lg:p-14">
-          <div className="md:col-span-2 flex justify-center">
-            <div className="relative">
-              <div className="absolute -inset-3 rounded-full bg-white/20 blur-xl animate-pulse-glow" />
-              <img
-                src={avatar}
-                alt="Letícia Kuchockowolec Baccin — Canal Psicogenealogia Liz no YouTube"
-                width={420}
-                height={420}
-                loading="lazy"
-                onError={handleImageError}
-                className="relative w-56 h-56 md:w-72 md:h-72 rounded-full object-cover border-4 border-white/40 shadow-glow"
-              />
-              <div className="absolute -bottom-2 -right-2 w-16 h-16 rounded-full bg-[#FF0000] flex items-center justify-center shadow-elegant border-4 border-white">
-                <Youtube className="w-8 h-8 text-white fill-white" />
-              </div>
-            </div>
-          </div>
-
-          <div className="md:col-span-3 text-center md:text-left text-primary-foreground">
-            <div className="text-xs uppercase tracking-[0.3em] text-lilac font-semibold mb-3">
-              Canal no YouTube
-            </div>
-            <h3 className="font-display text-3xl md:text-5xl font-semibold leading-tight">
-              Aulas gratuitas de <span className="italic">Psicogenealogia</span>
-            </h3>
-            <p className="mt-4 text-primary-foreground/85 text-base md:text-lg max-w-xl">
-              Conteúdo semanal com Letícia Kuchockowolec Baccin para você compreender a sua
-              história familiar e dar os primeiros passos no autoconhecimento ancestral.
-            </p>
-            <a
-              href="https://www.youtube.com/@PsicogenealogiaLiz"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group mt-7 inline-flex items-center gap-3 bg-white text-deep rounded-full px-7 py-4 text-base md:text-lg font-semibold shadow-soft hover:shadow-glow transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
-            >
-              <Play className="w-5 h-5 fill-[#FF0000] text-[#FF0000]" />
-              Assistir no YouTube
-            </a>
-          </div>
-        </div>
+  <section className="bg-background py-20 md:py-28">
+    <div className="reveal mx-auto grid max-w-7xl gap-0 px-6 md:px-8 lg:grid-cols-[0.72fr_1.28fr] lg:px-12">
+      <div className="relative min-h-80 overflow-hidden bg-secondary">
+        <img
+          src={avatar}
+          alt="Letícia Kuchockowolec Baccin no canal Psicogenealogia Liz"
+          width={800}
+          height={800}
+          loading="lazy"
+          onError={handleImageError}
+          className="absolute inset-0 h-full w-full object-cover object-top"
+        />
+        <span className="absolute bottom-5 left-5 flex h-12 w-12 items-center justify-center rounded-md bg-[#FF0000] text-white">
+          <Youtube className="h-6 w-6" />
+        </span>
+      </div>
+      <div className="flex flex-col justify-center border border-deep/16 bg-secondary px-7 py-12 md:px-12 md:py-16 lg:border-l-0">
+        <h2 className="font-display text-4xl font-extrabold leading-[1.02] text-deep md:text-6xl">Psicogenealogia para assistir, ouvir e compreender.</h2>
+        <p className="mt-6 max-w-[62ch] text-base leading-relaxed text-deep/68 md:text-lg">
+          Aulas e conversas com Letícia Kuchockowolec Baccin para reconhecer padrões familiares e conhecer o trabalho do Instituto Liz.
+        </p>
+        <a
+          href="https://youtube.com/@psicogenealogializ?si=hz8qqaD2TmOb_Q4n"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-8 inline-flex min-h-[52px] w-fit items-center gap-3 rounded-lg bg-deep px-6 font-semibold text-primary-foreground transition-colors hover:bg-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+        >
+          <Play className="h-4 w-4 fill-current" />
+          Assistir no YouTube
+        </a>
       </div>
     </div>
   </section>
