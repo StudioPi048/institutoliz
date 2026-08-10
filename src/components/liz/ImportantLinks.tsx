@@ -28,7 +28,7 @@ const LETICIA_WHATSAPP =
 const CORPORATE_WHATSAPP =
   "https://wa.me/5548996299166?text=Gostaria%20de%20informa%C3%A7%C3%B5es%20para%20contratar%20Let%C3%ADcia%20Baccin%20para%20palestra%20em%20evento%20corporativo";
 const GEOVANNA_WHATSAPP =
-  "https://wa.me/5548991618458?text=Quero%20receber%20a%20agenda%20atualizada%20de%20palestras%20e%20congressos%20com%20Let%C3%ADcia%20Baccin";
+  "https://wa.me/5548991618458?text=Quero%20receber%20a%20agenda%20atualizada%20de%20cursos%2C%20palestras%20e%20eventos%20e%20informa%C3%A7%C3%B5es%20para%20inscri%C3%A7%C3%A3o%20no%20pr%C3%B3ximo%20congresso";
 const BOOK_CLUB_URL =
   "https://hotmart.com/pt-br/marketplace/produtos/clube-do-livro-de-psicogenealogia-com-leticia-kuchockowolec-baccin/H101221528D";
 
@@ -125,10 +125,10 @@ const paths = [
     icon: MessageCircle,
   },
   {
-    title: "Palestras e congressos",
-    description: "Fale com Geovanna para saber onde Letícia estará nos próximos meses.",
+    title: "Agenda, palestras e congressos",
+    description: "Geovanna atualiza a agenda de cursos, eventos e palestras e informa como se inscrever no próximo congresso.",
     url: GEOVANNA_WHATSAPP,
-    cta: "Consultar com Geovanna",
+    cta: "Consultar agenda e inscrições",
     destination: "WhatsApp",
     icon: CalendarDays,
   },
@@ -204,7 +204,7 @@ export const ImportantLinks = () => (
     </div>
 
     <div className="mx-auto max-w-7xl px-6 py-20 md:px-8 md:py-28 lg:px-12">
-      <div className="reveal grid gap-10 lg:grid-cols-[0.42fr_1fr]">
+      <div className="reveal grid gap-10 xl:grid-cols-[0.34fr_1fr]">
         <h2 className="font-display text-4xl font-extrabold leading-none text-deep md:text-6xl">Cursos para diferentes profundidades.</h2>
         <div className="border-t border-deep/20">
           {courses.map((course) => {
@@ -263,7 +263,7 @@ export const ImportantLinks = () => (
     </div>
 
     <div className="mx-auto max-w-7xl px-6 py-20 md:px-8 md:py-28 lg:px-12">
-      <div className="reveal grid gap-10 lg:grid-cols-[0.42fr_1fr]">
+      <div className="reveal grid gap-10 xl:grid-cols-[0.34fr_1fr]">
         <div>
           <h2 className="font-display text-4xl font-extrabold leading-none text-deep md:text-6xl">Outros caminhos</h2>
           <p className="mt-5 max-w-[40ch] leading-relaxed text-deep/72">Atendimento, agenda, canais e contato com as pessoas certas.</p>

@@ -11,7 +11,7 @@ export const BookBanner = () => (
         href={BOOK_URL}
         target="_blank"
         rel="noopener noreferrer"
-        className="reveal group relative block overflow-hidden border border-primary-foreground/16 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--gold))]"
+        className="reveal group relative flex min-h-64 items-center overflow-hidden border border-primary-foreground/16 bg-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--gold))]"
         aria-label="Comprar o livro O Código Sagrado dos Dentes na Hotmart"
       >
         <img
@@ -19,7 +19,7 @@ export const BookBanner = () => (
           alt="O Código Sagrado dos Dentes, de Letícia Kuchockowolec Baccin"
           onError={handleImageError}
           loading="lazy"
-          className="h-full min-h-64 w-full object-cover transition-transform duration-500 group-hover:scale-[1.015]"
+          className="h-auto w-full object-contain transition-transform duration-500 group-hover:scale-[1.01]"
         />
       </a>
 
