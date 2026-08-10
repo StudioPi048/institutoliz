@@ -32,10 +32,10 @@ export const Header = () => {
               A Jornada
             </button>
             <button
-              onClick={() => scrollTo("ecossistema")}
+              onClick={() => scrollTo("bio")}
               className="hover:text-primary active:text-deep transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded px-1"
             >
-              Ecossistema
+              Bio & Caminhos
             </button>
           </nav>
           <a

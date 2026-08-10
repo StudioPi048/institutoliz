@@ -17,7 +17,8 @@ const linkGroups = [
       { label: "App Psicogenealogia", url: "https://mapadotesouroliz.lovable.app/" },
       { label: "Editora Liz", url: "https://editoraliz.lovable.app/#guia" },
       { label: "Atendimento LKB", url: "https://atendimentolkb.lovable.app" },
-      { label: "Atendimento Letícia Baccin", url: "https://wa.me/5544991318081" },
+      { label: "Bio & Caminhos", url: "#bio" },
+      { label: "Atendimento Letícia Baccin", url: "https://wa.me/5548996299166?text=Quero%20agendar%20atendimento%20com%20Let%C3%ADcia%20Baccin" },
       { label: "Hub de Links", url: "https://hubliz.lovable.app/" },
     ],
   },
@@ -55,8 +56,8 @@ export const Footer = () => (
                 <li key={l.url}>
                   <a
                     href={l.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    target={l.url.startsWith("#") ? undefined : "_blank"}
+                    rel={l.url.startsWith("#") ? undefined : "noopener noreferrer"}
                     className="group inline-flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                   >
                     {l.label}

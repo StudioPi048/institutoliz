@@ -35,9 +35,9 @@ const items = [
   },
   {
     title: "Atendimento com Letícia Baccin",
-    desc: "Letícia Kuchockowolec Baccin · agendamento direto via WhatsApp com Anapaula K Farhat.",
+    desc: "Agendamento individual direto com Letícia Kuchockowolec Baccin pelo WhatsApp.",
     icon: MessageCircle,
-    url: "https://wa.me/5544991318081?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20atendimento%20com%20a%20Let%C3%ADcia%20Baccin.",
+    url: "https://wa.me/5548996299166?text=Quero%20agendar%20atendimento%20com%20Let%C3%ADcia%20Baccin",
     accent: "from-primary to-rose",
     cta: "Falar no WhatsApp",
   },

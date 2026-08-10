@@ -16,11 +16,11 @@ const Index = () => {
       <Header />
       <Hero />
       <WelcomeBar />
+      <ImportantLinks />
       <Journey />
       <BookBanner />
       <YoutubeBanner />
       <Ecosystem />
-      <ImportantLinks />
       <Footer />
     </main>
   );
