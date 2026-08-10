@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, ExternalLink } from "lucide-react";
 import { handleImageError } from "@/lib/image-fallback";
 import seedImg from "@/assets/jornada-semente.webp";
 import sproutImg from "@/assets/jornada-arvore.webp";
@@ -93,7 +93,8 @@ export const Journey = () => {
                 <p className="mt-5 leading-relaxed text-deep/68">{stage.text}</p>
                 <div className="mt-7 flex flex-wrap gap-x-6 gap-y-2">
                   {stage.links.map((link) => (
-                    <a key={link.url} href={link.url} target="_blank" rel="noopener noreferrer" className="group inline-flex min-h-11 items-center gap-2 font-semibold text-primary hover:text-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary">
+                    <a key={link.url} href={link.url} target="_blank" rel="noopener noreferrer" className="group inline-flex min-h-[52px] items-center gap-3 rounded-lg bg-primary px-4 font-semibold text-primary-foreground transition-colors hover:bg-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
+                      <span className="flex h-8 w-8 items-center justify-center rounded-md bg-primary-foreground/14" aria-hidden="true"><ExternalLink className="h-4 w-4" /></span>
                       {link.label}
                       <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
                     </a>

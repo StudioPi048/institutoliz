@@ -243,7 +243,9 @@ As quatro etapas formam uma faixa semântica de botões, não abas ornamentais. 
 
 ### Editorial Directory
 
-Cursos, livros, outros caminhos e ecossistema usam listas com bordas superior e inferior. Cada linha combina título, descrição factual e uma ação explícita; no ecossistema, numeração dourada reforça a sequência. O hover altera apenas cor ou fundo de forma sutil e o foco permanece nítido.
+Cursos, livros, outros caminhos e ecossistema usam listas com bordas superior e inferior. Cada linha inteira é um link e combina título, descrição factual, ícone semântico, indicação do destino e uma ação explícita. Cursos podem incorporar uma miniatura fotográfica para reconhecimento rápido; os demais diretórios preservam o ritmo com ícones em campos compactos. No ecossistema, a numeração dourada reforça a sequência. O hover altera apenas cor ou fundo de forma sutil e o foco permanece nítido.
+
+**The Visual Door Rule.** Todo redirecionamento central deve ser reconhecível antes da leitura completa: área inteira clicável, ícone relacionado ao destino, verbo de ação, canal de saída e seta externa. Ícones informam função — nunca decoram — e seguem o mesmo traço Lucide.
 
 ### Relational Line
 
@@ -261,6 +263,7 @@ A linha dourada é o componente-assinatura do sistema. Seu traçado acontece uma
 - **Do** usar ametista, violeta, lilás, rosa suave, branco e dourado em campos chapados com contraste legível.
 - **Do** preservar conteúdo visível e uma experiência equivalente quando a pessoa prefere movimento reduzido.
 - **Do** incorporar credenciais, duração e números confirmados diretamente na narrativa à qual pertencem.
+- **Do** usar miniaturas de conteúdo e ícones semânticos para tornar destinos externos reconhecíveis em uma varredura rápida.
 
 ### Don't:
 
