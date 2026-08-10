@@ -47,6 +47,8 @@ A visita costuma começar por indicação, redes sociais, YouTube ou link da bio
 - Biografia e trajetória profissional em `src/components/liz/ImportantLinks.tsx`.
 - Livro “O Código Sagrado dos Dentes” com venda aberta na Hotmart: `https://go.hotmart.com/X106406130U?dp=1`.
 - Rede de profissionais Liz Indica: `https://liz-indica.lovable.app`.
+- Site oficial do Congresso III Tempus: `https://congressoiii.lovable.app`.
+- Congresso III Tempus — Ciclos invisíveis das gerações: 06, 07 e 08 de novembro de 2026, em Florianópolis, conforme material oficial fornecido pelo Instituto.
 - Geovanna centraliza a agenda atualizada de cursos, palestras, eventos e informações de inscrição em congressos pelo WhatsApp `(48) 99161-8458`.
 - Não há depoimentos, avaliações, números comerciais ou resultados clínicos confirmados para uso na página.
 

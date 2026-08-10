@@ -164,6 +164,8 @@ A paleta é quente dentro do espectro violeta: ametista e violeta profundo suste
 
 **Body Font:** Public Sans (com `system-ui` e `sans-serif` como fallback)
 
+**Campaign Display Font:** Cormorant Garamond (com `Georgia` e `serif` como fallback), restrita ao nome e à frase-manifesto do Congresso III Tempus.
+
 **Character:** Anybody traz uma voz contemporânea, autoral e acolhedora aos títulos; Public Sans mantém textos longos, navegação e ações diretos e acessíveis. A combinação evita tanto a solenidade mística quanto a frieza corporativa.
 
 ### Hierarchy
@@ -173,12 +175,13 @@ A paleta é quente dentro do espectro violeta: ametista e violeta profundo suste
 - **Title** (bold, 1.25rem–1.5rem, altura de linha 1.25): nomeia cursos, caminhos, etapas e itens do diretório editorial.
 - **Body** (regular, 1rem–1.125rem, altura de linha relaxada): explica contexto e próximos passos; manter linhas normalmente entre 40 e 72 caracteres.
 - **Label** (semibold, 0.75rem–0.875rem): informa navegação, sequência, detalhes operacionais e microcopy; caixa alta e espaçamento maior só aparecem em notas curtas e no descritor do logotipo.
+- **Campaign Display** (medium ou semibold, 3rem–6rem, altura de linha 1): exceção local para “Tempus” e sua frase-manifesto; nunca substitui a hierarquia institucional.
 
 ### Named Rules
 
 **The Human Authority Rule.** Títulos são grandes e firmes, mas o corpo nunca é reduzido para parecer sofisticado; clareza e leitura adulta têm prioridade.
 
-**The Two-Voice Rule.** Anybody fala pela visão e pelos nomes; Public Sans explica, orienta e permite agir. Não introduzir uma terceira família tipográfica.
+**The Two-Voice Rule.** Anybody fala pela visão e pelos nomes; Public Sans explica, orienta e permite agir. Cormorant Garamond é a única exceção documentada e permanece confinada à campanha Tempus.
 
 ## Layout
 
@@ -247,6 +250,14 @@ Cursos, livros, outros caminhos e ecossistema usam listas com bordas superior e 
 
 **The Visual Door Rule.** Todo redirecionamento central deve ser reconhecível antes da leitura completa: área inteira clicável, ícone relacionado ao destino, verbo de ação, canal de saída e seta externa. Ícones informam função — nunca decoram — e seguem o mesmo traço Lucide.
 
+### Campaign Window — Tempus 2026
+
+O Congresso III entra na jornada como um território editorial temporário e claramente demarcado, não como uma mudança na identidade principal do Instituto Liz. A seção usa o universo oficial do evento — verde quase preto (`#050D0A`), ouro antigo (`#D8A82C`), turquesa oxidada (`#53D4CC`) e marfim (`#EEE6D7`) — em uma composição retangular de imagem e texto, sem gradientes ou cartões internos.
+
+O relógio com engrenagens, ramos e raízes é a imagem-chave. `Cormorant Garamond` aparece apenas no nome Tempus e na frase-manifesto para aproximar a assinatura editorial do Congresso; informações práticas e ações permanecem em Public Sans. A data, o local e o destino externo são sempre texto vivo. Toda a campanha oferece uma porta visual clicável e uma ação explícita para o site oficial.
+
+**The Campaign Territory Rule.** Identidades de eventos podem formar uma janela cromática local quando documentadas e factuais; elas nunca substituem a paleta Liz no restante da página nem se espalham para componentes institucionais.
+
 ### Relational Line
 
 A linha dourada é o componente-assinatura do sistema. Seu traçado acontece uma vez, em 900ms, com curva de desaceleração expressiva e atraso curto; links relacionais podem revelar um sublinhado em 220ms. Com movimento reduzido, toda linha aparece completa e estática. Nenhum conteúdo depende da animação ou começa oculto.
@@ -264,6 +275,7 @@ A linha dourada é o componente-assinatura do sistema. Seu traçado acontece uma
 - **Do** preservar conteúdo visível e uma experiência equivalente quando a pessoa prefere movimento reduzido.
 - **Do** incorporar credenciais, duração e números confirmados diretamente na narrativa à qual pertencem.
 - **Do** usar miniaturas de conteúdo e ícones semânticos para tornar destinos externos reconhecíveis em uma varredura rápida.
+- **Do** manter a identidade Tempus restrita à seção do Congresso III e preservar todas as informações práticas como texto acessível.
 
 ### Don't:
 
