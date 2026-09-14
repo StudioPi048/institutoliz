@@ -29,11 +29,11 @@ const stages = [
   },
   {
     name: "A Árvore",
-    title: "Especialização em Constelação Familiar",
-    text: "Você se torna árvore: enraizada e com copa generosa. Aprofunde-se na Psicogenealogia aliada à Constelação Familiar e acesse os guias da Editora Liz.",
+    title: "Psicogenealogia para Todos",
+    text: "Você se torna árvore: enraizada e com copa generosa. Aprofunde-se na Psicogenealogia e acesse os guias da Editora Liz.",
     image: treeImg,
     links: [
-      { label: "Psico e Constelação", url: "https://constelacaoliz.lovable.app/" },
+      { label: "Psicogenealogia", url: "https://psicogenealogializ.lovable.app/" },
       { label: "Editora Liz", url: "https://editoraliz.lovable.app/#guia" },
     ],
   },
